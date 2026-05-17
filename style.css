@@ -7,15 +7,17 @@
 html , body{
   height: 100vw;
   width: 100%;
-  background-image: url(imagens/fundo-madeira.jpg) no-repeat;
+   
   
   
 
 }
 body{
       
+      background-image: url(imagens/fundo-madeira.jpg);
       background-repeat: no-repeat;
-      width: 100% ;
+      background-size: cover;
+      background-attachment: fixed;
 
 }
 main{
@@ -34,4 +36,16 @@ section#telefone{
       transform: translate(-50%, -50%);
       background-image: url(imagens/frame-iphone.png);
       background-repeat: no-repeat;
+
+}
+iframe#tela {
+      position: absolute;
+      top: 52%;
+      left: 47%;
+      height: 500px;
+      width : 269px; 
+      transform: translate(-50%, -50%);
+      border: none;
+      background-size: cover;
+
 }
